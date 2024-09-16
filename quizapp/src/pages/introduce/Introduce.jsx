@@ -4,7 +4,7 @@ import Dropdown from "../../components/dropdown/Dropdown";
 import { useNavigate } from "react-router-dom";
 
 const Introduce = () => {
-  const difficulty = ["kolay", "orta", "zor"];
+  const difficulty = ["easy", "medium", "hard"];
   const [difficultyChange, setDifficultyChange] = useState("");
   const navigate = useNavigate();
   const TOTAL_QUESTIONS = 10;
