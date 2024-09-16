@@ -3,7 +3,11 @@ import './Introduce.css';
 
 const Introduce = () => {
   return (
-    <div>Introduce</div>
+    <div className='introduce'>
+      <div className="introude-container">
+        <img src="" alt="logo" />
+      </div>
+    </div>
   )
 }
 
